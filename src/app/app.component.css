@@ -1,0 +1,21 @@
+#box {
+    background-color:lightblue;
+    width: 150px; 
+    height: 150px; 
+    display: inline-block;
+    vertical-align: top; 
+    margin: 1px;
+}
+button {
+    width: 90px; 
+    height: 90px; 
+    margin: 25px;
+    background-color: blue;
+    font-weight: bold; 
+    font-size: 35px;
+    color: white;
+}
+
+#off {
+    background-color: lightgreen;
+}

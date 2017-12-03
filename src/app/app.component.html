@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>{{ title }}</h1>
+  <h1>{{title2}}</h1>
+  <div id ="box" *ngFor= "let i of mySwitch; let idx = index">
+    <button *ngIf="i == true " (click)="clickSwitch(idx)" [ngClass]="{'on':i}">ON</button>
+    <button id= "off" *ngIf="i == false " (click)="clickSwitch(idx)" [ngClass]="{'on':i}">OFF</button>
+  </div>
+
+</div>
